@@ -1,0 +1,91 @@
+[I 12:43:31.678 NotebookApp] [nb_conda_kernels] enabled, 5 kernels found
+[I 12:43:32.410 NotebookApp] The port 8888 is already in use, trying another port.
+[I 12:43:32.411 NotebookApp] The port 8889 is already in use, trying another port.
+[I 12:43:33.106 NotebookApp] [nb_anacondacloud] enabled
+[I 12:43:33.110 NotebookApp] [nb_conda] enabled
+[I 12:43:33.187 NotebookApp] ✓ nbpresent HTML export ENABLED
+[W 12:43:33.187 NotebookApp] ✗ nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[I 12:43:33.191 NotebookApp] Serving notebooks from local directory: /Users/armand/ExploCode/packages/sequellecode/notebooks
+[I 12:43:33.192 NotebookApp] 0 active kernels 
+[I 12:43:33.192 NotebookApp] The Jupyter Notebook is running at: http://localhost:8890/?token=62995aca95bfd0b1f0a60cc5af785a25ab511183478653de
+[I 12:43:33.192 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 12:43:33.193 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8890/?token=62995aca95bfd0b1f0a60cc5af785a25ab511183478653de
+[I 12:43:33.368 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[I 12:43:37.766 NotebookApp] Creating new notebook in 
+[I 12:43:38.326 NotebookApp] Kernel started: 1b4344fc-f3c8-4d6d-a727-14358bbde37d
+[W 12:43:38.375 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 12.64ms referer=http://localhost:8890/notebooks/Untitled.ipynb?kernel_name=conda-env-anaconda3-py
+[I 12:43:39.616 NotebookApp] Adapting to protocol v5.1 for kernel 1b4344fc-f3c8-4d6d-a727-14358bbde37d
+[I 12:45:38.291 NotebookApp] Saving file at /test regex.ipynb
+[I 12:45:40.101 NotebookApp] Saving file at /test regex.ipynb
+[I 12:47:38.294 NotebookApp] Saving file at /test regex.ipynb
+[I 12:49:38.292 NotebookApp] Saving file at /test regex.ipynb
+[I 12:51:38.536 NotebookApp] Saving file at /test regex.ipynb
+[I 12:53:38.292 NotebookApp] Saving file at /test regex.ipynb
+[I 12:55:38.294 NotebookApp] Saving file at /test regex.ipynb
+[I 12:57:38.293 NotebookApp] Saving file at /test regex.ipynb
+[I 12:59:38.293 NotebookApp] Saving file at /test regex.ipynb
+[I 13:01:38.298 NotebookApp] Saving file at /test regex.ipynb
+[I 13:03:38.309 NotebookApp] Saving file at /test regex.ipynb
+[I 13:05:38.312 NotebookApp] Saving file at /test regex.ipynb
+[I 13:07:38.307 NotebookApp] Saving file at /test regex.ipynb
+[I 13:09:38.314 NotebookApp] Saving file at /test regex.ipynb
+[I 13:11:39.291 NotebookApp] Saving file at /test regex.ipynb
+[I 13:13:38.307 NotebookApp] Saving file at /test regex.ipynb
+[I 13:15:38.310 NotebookApp] Saving file at /test regex.ipynb
+[I 13:17:38.311 NotebookApp] Saving file at /test regex.ipynb
+[I 13:19:38.311 NotebookApp] Saving file at /test regex.ipynb
+[I 13:21:38.315 NotebookApp] Saving file at /test regex.ipynb
+[I 13:23:38.318 NotebookApp] Saving file at /test regex.ipynb
+[I 13:25:38.316 NotebookApp] Saving file at /test regex.ipynb
+[I 13:27:38.318 NotebookApp] Saving file at /test regex.ipynb
+[I 13:29:38.318 NotebookApp] Saving file at /test regex.ipynb
+[I 13:31:38.321 NotebookApp] Saving file at /test regex.ipynb
+[I 13:33:38.325 NotebookApp] Saving file at /test regex.ipynb
+[I 13:35:38.326 NotebookApp] Saving file at /test regex.ipynb
+[I 13:37:38.322 NotebookApp] Saving file at /test regex.ipynb
+[I 13:38:19.579 NotebookApp] Saving file at /test regex.ipynb
+[I 13:39:38.328 NotebookApp] Saving file at /test regex.ipynb
+[I 13:41:38.331 NotebookApp] Saving file at /test regex.ipynb
+[I 13:43:38.335 NotebookApp] Saving file at /test regex.ipynb
+[I 13:45:38.335 NotebookApp] Saving file at /test regex.ipynb
+[I 13:47:38.336 NotebookApp] Saving file at /test regex.ipynb
+[I 13:49:38.337 NotebookApp] Saving file at /test regex.ipynb
+[I 13:51:38.342 NotebookApp] Saving file at /test regex.ipynb
+[I 13:53:38.342 NotebookApp] Saving file at /test regex.ipynb
+[I 13:55:38.345 NotebookApp] Saving file at /test regex.ipynb
+[I 13:57:38.345 NotebookApp] Saving file at /test regex.ipynb
+[I 13:59:38.345 NotebookApp] Saving file at /test regex.ipynb
+[I 14:01:38.348 NotebookApp] Saving file at /test regex.ipynb
+[I 14:03:38.350 NotebookApp] Saving file at /test regex.ipynb
+[I 14:05:38.368 NotebookApp] Saving file at /test regex.ipynb
+[I 14:07:38.353 NotebookApp] Saving file at /test regex.ipynb
+[I 14:09:38.353 NotebookApp] Saving file at /test regex.ipynb
+[I 14:11:38.356 NotebookApp] Saving file at /test regex.ipynb
+[I 14:13:40.458 NotebookApp] Saving file at /test regex.ipynb
+[I 14:25:38.380 NotebookApp] Saving file at /test regex.ipynb
+[I 14:26:53.115 NotebookApp] Saving file at /test regex.ipynb
+[I 14:31:38.390 NotebookApp] Saving file at /test regex.ipynb
+[I 14:32:00.134 NotebookApp] Kernel restarted: 1b4344fc-f3c8-4d6d-a727-14358bbde37d
+[I 14:32:01.416 NotebookApp] Adapting to protocol v5.1 for kernel 1b4344fc-f3c8-4d6d-a727-14358bbde37d
+[I 14:33:38.397 NotebookApp] Saving file at /test regex.ipynb
+[I 14:49:38.413 NotebookApp] Saving file at /test regex.ipynb
+[I 14:51:38.411 NotebookApp] Saving file at /test regex.ipynb
+[I 14:53:38.408 NotebookApp] Saving file at /test regex.ipynb
+[I 14:55:38.412 NotebookApp] Saving file at /test regex.ipynb
+[I 14:57:38.412 NotebookApp] Saving file at /test regex.ipynb
+[I 14:59:38.430 NotebookApp] Saving file at /test regex.ipynb
+[I 15:00:59.616 NotebookApp] Saving file at /test regex.ipynb
+[I 15:01:14.825 NotebookApp] Saving file at /test regex.ipynb
+[I 15:01:39.800 NotebookApp] Saving file at /test regex.ipynb
+[I 15:03:38.433 NotebookApp] Saving file at /test regex.ipynb
+[I 15:04:17.794 NotebookApp] Saving file at /test regex.ipynb
+[I 15:07:38.435 NotebookApp] Saving file at /test regex.ipynb
+[I 15:09:39.416 NotebookApp] Saving file at /test regex.ipynb
+[I 15:11:38.439 NotebookApp] Saving file at /test regex.ipynb
+[I 15:15:39.426 NotebookApp] Saving file at /test regex.ipynb
+[I 15:33:39.494 NotebookApp] Saving file at /test regex.ipynb
+[I 15:36:10.332 NotebookApp] Saving file at /test regex.ipynb
