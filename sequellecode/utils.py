@@ -17,10 +17,17 @@ def find_context(text, article):
 
 def find_articles_position(text):
     """find articles mentions in raw string"""
-    regex_article = re.compile("((?:R|L|D|l|r|d)(?:\s|\.|\.\s)?\d{3,4}(?:-\d{1,2})?(?:-\d{1,2})?)")
-    articles = re.finditer(regex_article, text)
+    regex_article = re.compile(r"((?:R|L|D|l|r|d)(?:\s|\.|\.\s)?\d{3,4}(?:-\d{1,2})?(?:-\d{1,2})?)")
+    articles = list(re.finditer(regex_article, text))
+
+    if not articles:
+        return None, None
+
     articles = [(art.group(), art.span()) for art in articles]
-    return list(zip(*articles))
+
+    articles, positions = list(zip(*articles))
+    return articles, positions
+
 
 def detect_code(context, code_strings):
     """detect in the given surrounding context a code reference"""
@@ -29,6 +36,8 @@ def detect_code(context, code_strings):
 def find_articles_code(text, code_strings = ["code du travail"]):
     """detect articles and reference to a code in the surrounding 80 characters"""
     articles, positions = find_articles_position(text)
+    if not articles:
+        return None, (None, None)
     contextes = [find_context(text, art) for art in articles]
     assert len(articles) == len(contextes), "problem in function find_context"
     codes = [detect_code(context, code_strings) for context in contextes]
