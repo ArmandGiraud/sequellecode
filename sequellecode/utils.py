@@ -4,8 +4,8 @@ import re
 
 def find_context(text, article):
     """check for a given article the surrounding text and try to find some reference to codes"""
-    before = r"(?P<before>.{1,80})"
-    after = r"(?P<after>.{1,80})"
+    before = r"(?P<before>.{1,80})?"
+    after = r"(?P<after>.{1,80})?"
     regex_article = before + article + after
     regex_article = re.compile(regex_article)
     context_list = re.findall(regex_article, text)
