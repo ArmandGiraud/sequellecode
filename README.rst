@@ -25,7 +25,7 @@ find legifrance link in natural language
 
 Install
 -------
-``pip install git+https://github.com/ArmandGiraud/autosuggest.git``
+``pip install git+https://github.com/ArmandGiraud/sequellecode.git``
 
 Usage
 -----
