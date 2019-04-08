@@ -14,9 +14,7 @@ sequelle code
         :alt: Documentation Status
 
 
-
-
-find legifrance link in natural language
+find legifrance link in natural language (code du travail)
 
 
 * Free software: GNU General Public License v3
@@ -54,6 +52,21 @@ Usage
      mais toutefois cela contredit l'article  L3187-1 du code de la sécurité sociale
      </embed>
 
+* Find links
+
+.. code-block:: python
+
+    mapping_path = "../data/mapping-articles-cdtn.json"
+    st = SequellText(mapping_path)
+    test_text = """Une pause de 20 minutes est obligatoire au bout de six heures de travail échues.
+    Cette obligation est énoncée aux l’article L3121-33 et L. L3121-31 du Code du travail:
+    mais toutefois cela contredit l'article  L3187-1 du code de la sécurité sociale"""
+
+    st.find_links(test_text)
+
+    >>> [('L3121-33', 'legifrance link'),
+        ('L3121-31','legifrance link'),
+        ('L3187-1', None)]
 
 
 * TODO

@@ -10,6 +10,7 @@ class SequellText:
         self._load_mappings(mapping_path)
 
     def put_links(self, text, code_strings = ["code du travail"]):
+        """add html markup links in raw text"""
         articles_normalized, (articles, positions) = find_articles_code(text, code_strings)
         if not articles_normalized:
             return text
@@ -21,6 +22,17 @@ class SequellText:
             text , offset = add_single_markup(text, markup, offset)
             
         return text
+
+    def find_links(self, text, code_strings = ["code du travail"]):
+        """return a list of articles mentions and associated links if any found
+        >>> [('L3121-33', 'legifrance link'),
+            ('L3121-31','legifrance link'),
+            ('L3187-1', None)]"""
+        articles_normalized, (articles, positions) = find_articles_code(text, code_strings)
+        articles_normalized = [art[0] for art in articles_normalized] # change this line to add new codes// filter code
+        links = [self._find_article_id(art) for art in articles_normalized]
+        return list(zip(articles_normalized, links))
+
     
     def _find_article_id(self, article):
         """return article legi id, if not found: either article is obsolete or not in the detected code"""
@@ -32,6 +44,7 @@ class SequellText:
     def _load_mappings(self, mapping_path):
         with open(mapping_path, "r") as f:
             self.code_json = json.load(f)
+
 
 if __name__ == "__main__":
     mapping_path = "../data/mapping-articles-cdtn.json"

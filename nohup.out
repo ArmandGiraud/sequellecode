@@ -1,0 +1,28 @@
+[I 13:49:29.663 NotebookApp] [nb_conda_kernels] enabled, 5 kernels found
+[I 13:49:30.236 NotebookApp] The port 8888 is already in use, trying another port.
+[I 13:49:30.237 NotebookApp] The port 8889 is already in use, trying another port.
+[I 13:49:30.238 NotebookApp] The port 8890 is already in use, trying another port.
+[I 13:49:30.242 NotebookApp] The port 8891 is already in use, trying another port.
+[I 13:49:31.178 NotebookApp] [nb_anacondacloud] enabled
+[I 13:49:31.182 NotebookApp] [nb_conda] enabled
+[I 13:49:31.263 NotebookApp] ✓ nbpresent HTML export ENABLED
+[W 13:49:31.263 NotebookApp] ✗ nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[I 13:49:31.268 NotebookApp] Serving notebooks from local directory: /Users/armand/ExploCode/packages/sequellecode
+[I 13:49:31.268 NotebookApp] 0 active kernels 
+[I 13:49:31.268 NotebookApp] The Jupyter Notebook is running at: http://localhost:8892/?token=a56bf15fcb54673a6a7744b9ce7184e619fe16c8c66205eb
+[I 13:49:31.268 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 13:49:31.275 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8892/?token=a56bf15fcb54673a6a7744b9ce7184e619fe16c8c66205eb
+[I 13:49:31.530 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[I 13:49:36.919 NotebookApp] Kernel started: 7d146ce4-4140-4786-94f9-e1f7c2b25eb2
+[W 13:49:36.984 NotebookApp] 404 GET /nbextensions/nbpresent/css/nbpresent.min.css (::1) 10.32ms referer=http://localhost:8892/notebooks/notebooks/test%20regex.ipynb
+[I 13:49:38.235 NotebookApp] Adapting to protocol v5.1 for kernel 7d146ce4-4140-4786-94f9-e1f7c2b25eb2
+[W 13:49:39.050 NotebookApp] 404 GET /api/kernels/0335a5da-c4ec-4cf5-94d8-969f2f35f47d/channels?session_id=484747261D14449B826FB8A78DA8B751 (::1): Kernel does not exist: 0335a5da-c4ec-4cf5-94d8-969f2f35f47d
+[W 13:49:39.051 NotebookApp] 404 GET /api/kernels/0335a5da-c4ec-4cf5-94d8-969f2f35f47d/channels?session_id=484747261D14449B826FB8A78DA8B751 (::1) 2.99ms referer=None
+[W 13:49:55.864 NotebookApp] Replacing stale connection: 0335a5da-c4ec-4cf5-94d8-969f2f35f47d:484747261D14449B826FB8A78DA8B751
+[I 13:51:47.155 NotebookApp] Saving file at /notebooks/test regex.ipynb
+[W 13:54:32.617 NotebookApp] Replacing stale connection: 0335a5da-c4ec-4cf5-94d8-969f2f35f47d:484747261D14449B826FB8A78DA8B751
+[W 13:59:37.464 NotebookApp] Replacing stale connection: 0335a5da-c4ec-4cf5-94d8-969f2f35f47d:484747261D14449B826FB8A78DA8B751
