@@ -37,7 +37,7 @@ setup(
     install_requires=requirements,
     license="GNU General Public License v3",
     long_description=readme + '\n\n' + history,
-    package_data = ["data/mapping-articles-cdtn.json"]
+    package_data = ["data/mapping-articles-cdtn.json"],
     keywords='sequellecode',
     name='sequellecode',
     packages=find_packages(include=['sequellecode']),
