@@ -16,7 +16,7 @@ requirements = [ ]
 setup_requirements = [ ]
 
 test_requirements = [ ]
-
+inside_dir = "."
 setup(
     author="Armand Giraud",
     author_email='armand.giraud.ag@gmail.com',
@@ -38,7 +38,7 @@ setup(
     license="GNU General Public License v3",
     long_description=readme + '\n\n' + history,
     include_package_data=True,
-    package_data={'sequellecode': ['data/mapping-article-text.json',   'data/mapping-articles-cdtn.json']},
+    data_files = [(inside_dir, [os.path.join(inside_dir,'data/mapping-articles-cdtn.json')])]
     keywords='sequellecode',
     name='sequellecode',
     packages=find_packages(include=['sequellecode']),
