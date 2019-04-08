@@ -38,6 +38,7 @@ setup(
     license="GNU General Public License v3",
     long_description=readme + '\n\n' + history,
     include_package_data=True,
+    package_data={'sequellecode': ['mapping-article-text.json',   'mapping-articles-cdtn.json']}
     keywords='sequellecode',
     name='sequellecode',
     packages=find_packages(include=['sequellecode']),
