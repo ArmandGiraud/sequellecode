@@ -38,7 +38,7 @@ setup(
     license="GNU General Public License v3",
     long_description=readme + '\n\n' + history,
     include_package_data=True,
-    data_files = [(inside_dir, [os.path.join(inside_dir,'data/mapping-articles-cdtn.json')])]
+    data_files = [(inside_dir, [os.path.join(inside_dir,'data/mapping-articles-cdtn.json')]],
     keywords='sequellecode',
     name='sequellecode',
     packages=find_packages(include=['sequellecode']),
