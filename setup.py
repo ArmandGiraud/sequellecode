@@ -38,7 +38,6 @@ setup(
     license="GNU General Public License v3",
     long_description=readme + '\n\n' + history,
     include_package_data=True,
-    data_files = [(inside_dir, [os.path.join(inside_dir,'data/mapping-articles-cdtn.json')])],
     keywords='sequellecode',
     name='sequellecode',
     packages=find_packages(include=['sequellecode']),
@@ -46,6 +45,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/armandgiraud/sequellecode',
-    version='0.1.1',
+    version='0.1.2',
     zip_safe=False,
 )
