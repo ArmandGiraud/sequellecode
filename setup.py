@@ -37,7 +37,7 @@ setup(
     install_requires=requirements,
     license="GNU General Public License v3",
     long_description=readme + '\n\n' + history,
-    include_package_data=True,
+    package_data = ["data/mapping-articles-cdtn.json"]
     keywords='sequellecode',
     name='sequellecode',
     packages=find_packages(include=['sequellecode']),
@@ -45,6 +45,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/armandgiraud/sequellecode',
-    version='0.1.2',
+    version='0.1.3',
     zip_safe=False,
 )
