@@ -1,1 +1,1 @@
-""
+from .sequellecode import SequellText

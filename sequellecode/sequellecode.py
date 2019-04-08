@@ -10,10 +10,11 @@ dir_path = os.path.dirname(os.path.abspath(__file__))
 local_data_path = os.path.join(dir_path, "data/mapping-articles-cdtn.json")
 
 class SequellText:
-    def __init__(self, mapping_path):
+    def __init__(self, mapping_path = None):
         if mapping_path is None:
             mapping_path = local_data_path
-        self._load_mappings(mapping_path)
+        else:
+            self._load_mappings(mapping_path)
 
     def put_links(self, text, code_strings = ["code du travail"]):
         """add html markup links in raw text"""
