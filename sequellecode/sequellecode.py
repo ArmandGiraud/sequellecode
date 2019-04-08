@@ -13,8 +13,7 @@ class SequellText:
     def __init__(self, mapping_path = None):
         if mapping_path is None:
             mapping_path = local_data_path
-        else:
-            self._load_mappings(mapping_path)
+        self._load_mappings(mapping_path)
 
     def put_links(self, text, code_strings = ["code du travail"]):
         """add html markup links in raw text"""
