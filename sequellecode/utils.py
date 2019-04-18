@@ -31,7 +31,7 @@ def find_articles_position(text):
 
 def detect_code(context, code_strings):
     """detect in the given surrounding context a code reference"""
-    return set(code for code in code_strings if "code" in context)
+    return set(code for code in code_strings if code in context)
 
 def find_articles_code(text, code_strings = ["code du travail"]):
     """detect articles and reference to a code in the surrounding 80 characters"""
@@ -44,6 +44,15 @@ def find_articles_code(text, code_strings = ["code du travail"]):
     articles_normalized = [normalize_digit(art) for art in articles]
     
     return list(zip(articles_normalized, codes)), (articles, positions)
+
+def find_articles_context(text):
+    "utility to get context"
+    articles, positions = find_articles_position(text)
+    if not articles:
+        return None, (None, None)
+    contextes = [find_context(text, art) for art in articles]
+
+    return list(zip(articles, contextes))
 
 
 
