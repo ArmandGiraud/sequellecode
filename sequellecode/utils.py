@@ -31,7 +31,7 @@ def find_articles_position(text):
 
 def detect_code(context, code_strings):
     """detect in the given surrounding context a code reference"""
-    return set(code for code in code_strings if code in context)
+    return set(code for code in code_strings if "code" in context)
 
 def find_articles_code(text, code_strings = ["code du travail"]):
     """detect articles and reference to a code in the surrounding 80 characters"""
